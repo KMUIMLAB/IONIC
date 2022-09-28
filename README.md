@@ -17,7 +17,7 @@
     - [GNSS](./Info_HW/GNSS.md)
     - Interal Camera
     - Exteral Cameras
-    - LiDAR
+    - [LiDAR](./Info_HW/LiDAR.md)
     - Radar
   - Software
     - [PC](./Info_SW/PC.md)
@@ -25,10 +25,11 @@
     - [GNSS](./Info_SW/GNSS.md) : T.K. & H.I.
     - Interal Camera : H.I.
     - Exteral Cameras : H.I.
-    - LiDAR : T.K.
+    - [LiDAR](./Info_HW/LiDAR.md) : T.K.
     - Radar : T.K.
 ## Updates History
   - 2022-03-21 : Initial plan release
+  - 2022-09-28 : Update LiDAR Information
 
 ## Description
 - This repository is for the vehicle data acquisition system of [Intelligent Mobility Labalatory (IMLAB)](https://lim.kookmin.ac.kr).
