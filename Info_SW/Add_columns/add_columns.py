@@ -19,7 +19,7 @@ class add_columns():
     def __init__(self, data_path) -> None:
         
         # Select 'all' if verification step is required, 'onlycurv' if only curvature is required
-        self.columns = 'all' # 'onlycurv'
+        self.columns = 'onlycurv' # 'all'
         
         self.paths = sorted(list(data_path.glob("data/*/*")))       
         result_paths = data_path / 'add_columns'
