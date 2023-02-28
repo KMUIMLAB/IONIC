@@ -6,9 +6,9 @@
 ## Setting
 - Use `requirements.txt` for installing the required packages.
 
-``` bash
-$ pip install -r ./requirements.txt
-```
+    ``` bash
+    $ pip install -r ./requirements.txt
+    ```
 
 - Get Merged data from `Process_data` in this repository
 - Download map data as follows. Shape files were obtained from some Gyeonggi-do and Seoul areas.
@@ -16,9 +16,10 @@ $ pip install -r ./requirements.txt
     ``` bash
     $ wget https://www.dropbox.com/s/4riq4hko17d8ldi/map_data.zip
     ```
-    Unzip map_data.zip file downloaded above.
+    Unzip map_data.zip file downloaded above and remove zip file.
     ``` bash
     $ unzip -q map_data.zip -d ./map_data
+    $ rm -rf ./map_data.zip
     ```
 
 ## Usage
