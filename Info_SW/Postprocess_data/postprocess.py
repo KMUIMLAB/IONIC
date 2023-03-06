@@ -70,12 +70,11 @@ class AddDrivingCycle():
             
 
  
-
+# Add Curvature Column
 class AddCurvature():
     def __init__(self, columns):
         
-        # Select 'all' if verification step is required, 'onlycurv' if only curvature is required
-        self.columns = columns # 'onlycurv'
+        self.columns = columns
         
         self.paths, self.csv_paths = make_path(data_path, result_path, result= curv_path, folder_name= Config['folder_name'])
         self.vectormap_path = os.path.join(origin_path, 'map_data', 'selected.shp')
@@ -330,5 +329,3 @@ if __name__ == "__main__":
         add_curv = AddCurvature(curvature_columns)
         add_curv.add_Curvature()
         data_path = result_path /curv_path
-
-
